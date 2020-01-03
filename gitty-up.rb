@@ -2,16 +2,16 @@
 class GittyUp < Formula
   desc ""
   homepage ""
-  version "0.0.7"
+  version "0.1.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/liatrio/gitty-up/releases/download/v0.0.7/gitty-up_0.0.7_Darwin_x86_64.tar.gz"
-    sha256 "8d3fc858cc9127443657d6d142b71c0a00ee662113ba8b3e5f2a269fc61fdf66"
+    url "https://github.com/liatrio/gitty-up/releases/download/v0.1.0/gitty-up_0.1.0_Darwin_x86_64.tar.gz"
+    sha256 "dfd76afcf7e71c94e8b07dca6491c2a04f7a347667f152ecfdae7c1d7b2e54af"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/liatrio/gitty-up/releases/download/v0.0.7/gitty-up_0.0.7_Linux_x86_64.tar.gz"
-      sha256 "00506ab273082c3874da553ba9b12d55e749b5df5c461705ec104841238a2baf"
+      url "https://github.com/liatrio/gitty-up/releases/download/v0.1.0/gitty-up_0.1.0_Linux_x86_64.tar.gz"
+      sha256 "770c607e0c75ad9e2a20f376e00ced416da4493eb4a96d6d9c4f45f92f915585"
     end
   end
 
